@@ -1,0 +1,23 @@
+ObamaTest Set -SVM (linear)
+--------------------------------------------
+Stemming :false,StopWords:TRUE,tm:weightTfIdf,
+
+
+SVM_PRECISION SVM_RECALL SVM_FSCORE
+1          0.51       0.55       0.53
+2          0.50       0.54       0.52
+3          0.51       0.41       0.45
+> recall_accuracy(as.numeric(as.factor(data_frame[5501:7575, 2])), results[, "SVM_LABEL"])
+[1] 0.5060241
+>
+-------------------------------------------------
+ObamaTestSet - SVM
+Stemming :False , tm:weightTf , StopWords:False
+
+
+  SVM_PRECISION SVM_RECALL SVM_FSCORE
+1          0.51       0.94       0.66
+2          0.60       0.09       0.16
+3          0.57       0.26       0.36
+> recall_accuracy(as.numeric(as.factor(data_frame[5501:7549, 2])), results[, "SVM_LABEL"])
+[1] 0.5197657

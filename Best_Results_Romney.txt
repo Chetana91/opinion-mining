@@ -1,0 +1,10 @@
+Average Accuracy for  Romney  is  0.561728395062
+positive precision: 0.567010309278
+pos recall: 0.296495956873
+  --- pos F-measure: 0.389380530973
+negative precision: 0.597423510467
+neg recall: 0.818081587652
+  --- neg F-measure: 0.690553745928
+neutral precision: 0.43063583815
+new recall: 0.295634920635
+  --- new F-measure: 0.350588235294

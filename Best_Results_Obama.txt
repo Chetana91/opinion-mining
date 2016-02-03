@@ -1,0 +1,10 @@
+Average Accuracy for  Obama  is  0.546454095657
+positive precision: 0.522012578616
+pos recall: 0.612546125461
+  --- pos F-measure: 0.563667232598
+negative precision: 0.566765578635
+neg recall: 0.588597842835
+  --- neg F-measure: 0.577475434618
+neutral precision: 0.550098231827
+new recall: 0.445859872611
+  --- new F-measure: 0.492524186456

@@ -1,0 +1,23 @@
+RomneyTest Set -SVM 
+--------------------------------------------
+tm:weightTfIdf,
+
+
+  SVM_PRECISION SVM_RECALL SVM_FSCORE
+1          0.52       0.89       0.66
+2          0.48       0.15       0.23
+3          0.56       0.29       0.38
+> recall_accuracy
+[1] 0.522694
+
+-------------------------------------------------
+
+tm:weightTf
+
+
+ SVM_PRECISION SVM_RECALL SVM_FSCORE
+1          0.52       0.89       0.66
+2          0.50       0.16       0.24
+3          0.56       0.27       0.36
+> recall_accuracy(as.numeric(as.factor(data_frame[5501:7549, 2])), results[, "SVM_LABEL"])
+[1] 0.5251342
